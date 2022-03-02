@@ -1,0 +1,76 @@
+.container {
+  background-image: url(https://images.unsplash.com/photo-1609353898029-d5408b6a93ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.base {
+  background: rgb(243, 247, 247);
+  margin-top: 5vh;
+  border: 3px solid black;
+  width: 30%;
+}
+
+.maindisplay {
+  background: rgb(248, 246, 246);
+  height: 25vh;
+  padding: 5% !important;
+  font-size: 4rem;
+  text-align: right;
+  font-family: Courier, monospace;
+  overflow: auto;
+}
+
+.subdisplay {
+  border-bottom: 1px solid black;
+  height: 25%;
+  font-size: 2rem;
+  overflow: auto;
+}
+
+.keypad {
+  height: calc(200% / 3);
+}
+
+.keys {
+  margin: 0;
+  height: 20%;
+  background: whitesmoke;
+  color: rgb(182, 128, 182);
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.keys:hover {
+  opacity: 1;
+}
+
+.ackey {
+  color: white;
+  background: rgb(231, 180, 218);
+}
+
+.equalkey {
+  color: white;
+  background-color: rgb(231, 180, 218);
+}
+
+.numkey {
+  color: rgb(1, 25, 34);
+}
+
+.opkey {
+  color: white;
+  background-color: rgb(166, 118, 175);
+}
